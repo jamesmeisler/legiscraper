@@ -1,0 +1,218 @@
+[
+    {
+        "name": "respect/config",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Respect/Config.git",
+            "reference": "1d7689ccb0c43153218b463a728f6c7130f1566a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Respect/Config/zipball/1d7689ccb0c43153218b463a728f6c7130f1566a",
+            "reference": "1d7689ccb0c43153218b463a728f6c7130f1566a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "@stable",
+            "respect/test": "dev-master"
+        },
+        "time": "2013-08-21 00:17:18",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Respect\\Config": "library"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Henrique Moody",
+                "email": "henriquemoody@gmail.com",
+                "homepage": "http://henriquemoody.com/"
+            },
+            {
+                "name": "Alexandre Gomes Gaigalas",
+                "email": "alexandre@gaigalas.net"
+            },
+            {
+                "name": "Rogerio Prado de Jesus",
+                "email": "rogeriopradoj@gmail.com"
+            },
+            {
+                "name": "Thiago Rigo",
+                "email": "thiagophx@gmail.com"
+            },
+            {
+                "name": "Augusto Pascutti",
+                "email": "augusto@phpsp.org.br"
+            },
+            {
+                "name": "Nick Lombard",
+                "email": "github@jigsoft.co.za"
+            },
+            {
+                "name": "Ivo Nascimento",
+                "email": "iannsp@gmail.com"
+            }
+        ],
+        "description": "A powerful, small, deadly simple configurator and dependency injection container made to be easy.",
+        "homepage": "https://github.com/Respect/Config",
+        "keywords": [
+            "config",
+            "dependency injection",
+            "dic",
+            "respect"
+        ]
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeguy/Slim.git",
+            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9e",
+            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mcrypt": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-10-12 17:24:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Slim": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "http://www.joshlockhart.com/"
+            }
+        ],
+        "description": "Slim Framework, a PHP micro framework",
+        "homepage": "http://github.com/codeguy/Slim",
+        "keywords": [
+            "microframework",
+            "rest",
+            "router"
+        ]
+    },
+    {
+        "name": "twilio/sdk",
+        "version": "3.10.0",
+        "version_normalized": "3.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twilio/twilio-php.git",
+            "reference": "788b98f8d97c95df9949da02f1290bde22179d79"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twilio/twilio-php/zipball/788b98f8d97c95df9949da02f1290bde22179d79",
+            "reference": "788b98f8d97c95df9949da02f1290bde22179d79",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.1"
+        },
+        "require-dev": {
+            "mockery/mockery": ">=0.7.2"
+        },
+        "time": "2013-02-02 20:12:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Services_Twilio": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Burke",
+                "email": "kevin@twilio.com"
+            },
+            {
+                "name": "Kyle Conroy",
+                "email": "kyle+pear@twilio.com"
+            }
+        ],
+        "description": "A PHP wrapper for Twilio's API",
+        "homepage": "http://github.com/twilio/twilio-php",
+        "keywords": [
+            "api",
+            "sms",
+            "twilio"
+        ]
+    },
+    {
+        "name": "thomaswelton/facebook-php-sdk",
+        "version": "v3.2.2",
+        "version_normalized": "3.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thomaswelton/facebook-php-sdk.git",
+            "reference": "2377bd3e99b781768e7a4932296f961b9588253c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thomaswelton/facebook-php-sdk/zipball/2377bd3e99b781768e7a4932296f961b9588253c",
+            "reference": "2377bd3e99b781768e7a4932296f961b9588253c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2013-07-14 19:26:40",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache2"
+        ],
+        "authors": [
+            {
+                "name": "Facebook",
+                "homepage": "https://github.com/facebook/facebook-php-sdk/contributors"
+            }
+        ],
+        "description": "Facebook PHP SDK",
+        "homepage": "https://github.com/thomaswelton/facebook-php-sdk",
+        "keywords": [
+            "facebook",
+            "sdk"
+        ]
+    }
+]
