@@ -38,13 +38,13 @@ $app->post('/scrape', function()use($app){
 
 	preg_match_all($pattern, $contents, $matches);
 
-	$out = '';
+	$out = '<html><head></head><body><h2>List of PDF files linked:</h2><ol>';
 
 	foreach($matches[0] as $match){
-		 $out .= $match . "\n";
+		 $out .="<li>" . $match . "</li>";
 	}
 
-	echo $out;
+	echo $out . "</ul></body></html>";
 });
 
 
